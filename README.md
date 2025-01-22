@@ -1,8 +1,4 @@
-Aqui está o README.md atualizado, com as partes de busca e responsividade removidas:
 
-markdown
-Copiar
-Editar
 # AluraFlix - Seu Portal de videos preferidos 🎬🍿
 
 **AluraFlix** é uma aplicação incrível para quem ama descobrir e assistir a filmes e séries! Feita com ❤️, esta plataforma permite que os usuários naveguem por uma vasta biblioteca de filmes, com detalhes ricos e informações úteis. Construído com **React**, a experiência de usuário é rápida, fluida e divertida.
