@@ -1,0 +1,63 @@
+/* Container da lista de vídeos */
+ul {
+    display: flex;        /* Usando Flexbox */
+    flex-wrap: wrap;      /* Permitindo que os itens quebrem para a linha seguinte */
+    gap: 20px;            /* Espaçamento entre os itens */
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Estilo para cada item de vídeo */
+  li {
+    display: flex;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+    /* Botões em coluna */
+    .botoes {
+      display: flex;
+      flex-direction: column; /* Direção em coluna */
+      align-items: center;   /* Centraliza os itens */
+      gap: 10px;             /* Espaçamento entre os botões */
+      margin-top: 10px;
+    }
+    
+    /* Estilo uniforme para todos os botões */
+    .button-card {
+      background-color: #0acc54;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .button-card:hover {
+      background-color: #089e44;
+    }
+    
+    .button-card:active {
+      background-color: #067a34;
+    }

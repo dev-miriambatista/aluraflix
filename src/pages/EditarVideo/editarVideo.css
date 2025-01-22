@@ -1,0 +1,49 @@
+/* Estiliza todos os botões */
+button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Mostra o ponteiro de clique */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Cor de fundo para botões desabilitados */
+    cursor: not-allowed; /* Mudança no cursor para indicar desabilitado */
+  }
+  
+  /* Estiliza o botão de "Adicionar Novo Vídeo" */
+  button.adicionar {
+    background-color: #008CBA; /* Cor de fundo azul */
+  }
+  
+  button.adicionar:hover {
+    background-color: #007bb5; /* Cor de fundo azul mais escuro ao passar o mouse */
+  }
+  
+  /* Estiliza o botão de "Salvar" */
+  button.salvar {
+    background-color: #f44336; /* Cor de fundo vermelha */
+  }
+  
+  button.salvar:hover {
+    background-color: #e53935; /* Cor de fundo vermelha mais escura ao passar o mouse */
+  }
+  
+  /* Estiliza o botão de "Excluir" */
+  button.excluir {
+    background-color: #e7e7e7; /* Cor de fundo cinza */
+    color: #333; /* Texto em cinza escuro */
+  }
+  
+  button.excluir:hover {
+    background-color: #ddd; /* Cor de fundo cinza mais escuro ao passar o mouse */
+  }
+  

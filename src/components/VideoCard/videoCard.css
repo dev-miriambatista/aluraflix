@@ -1,0 +1,99 @@
+.video-card {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.video-details {
+  padding: 16px;
+  text-align: center;
+}
+
+.video-title {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.video-description {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.watch-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.watch-button:hover {
+  background-color: #0056b3;
+}
+/* Estiliza todos os botões */
+button, link {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Texto branco */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Mostra o ponteiro de clique */
+  transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+button:hover link:hover {
+  background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+button:disabled link:disabled {
+  background-color: #ccc; /* Cor de fundo para botões desabilitados */
+  cursor: not-allowed; /* Mudança no cursor para indicar desabilitado */
+}
+
+/* Estiliza o botão de "Adicionar Novo Vídeo" */
+button.adicionar {
+  background-color: #008CBA; /* Cor de fundo azul */
+}
+
+button.adicionar:hover {
+  background-color: #007bb5; /* Cor de fundo azul mais escuro ao passar o mouse */
+}
+
+/* Estiliza o botão de "Salvar" */
+button.salvar {
+  background-color: #f44336; /* Cor de fundo vermelha */
+}
+
+button.salvar:hover {
+  background-color: #e53935; /* Cor de fundo vermelha mais escura ao passar o mouse */
+}
+
+/* Estiliza o botão de "Excluir" */
+button.excluir {
+  background-color: #e7e7e7; /* Cor de fundo cinza */
+  color: #333; /* Texto em cinza escuro */
+}
+
+button.excluir:hover {
+  background-color: #ddd; /* Cor de fundo cinza mais escuro ao passar o mouse */
+}

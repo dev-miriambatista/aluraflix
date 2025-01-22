@@ -1,0 +1,198 @@
+/* Reset básico para remover margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display:flex;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  nav {
+    display: flex;
+    width: 100vw;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo do formulário de adição e edição */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="url"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para a lista de vídeos */
+  ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin-bottom: 10px;
+    }
+  
+    form {
+      width: 90%;
+    }
+  
+    ul {
+      margin: 0;
+    }
+  }
+
+  /* Animações suaves */
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Animação suave nas listas */
+  li {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estiliza todos os botões */
+  
+  button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Cor de fundo para botões desabilitados */
+    cursor: not-allowed; /* Mudança no cursor para indicar desabilitado */
+  }
+  
+  /* Estiliza o botão de "Adicionar Novo Vídeo" */
+  button.adicionar {
+    background-color: #008CBA; /* Cor de fundo azul */
+  }
+  
+  button.adicionar:hover {
+    background-color: #007bb5; /* Cor de fundo azul mais escuro ao passar o mouse */
+  }
+  
+  /* Estiliza o botão de "Salvar" */
+  button.salvar {
+    background-color: #f44336; /* Cor de fundo vermelha */
+  }
+  
+  button.salvar:hover {
+    background-color: #e53935; /* Cor de fundo vermelha mais escura ao passar o mouse */
+  }
+  
+  /* Estiliza o botão de "Excluir" */
+  button.excluir {
+    background-color: #e7e7e7; /* Cor de fundo cinza */
+    color: #333; /* Texto em cinza escuro */
+  }
+  
+  button.excluir:hover {
+    background-color: #ddd; /* Cor de fundo cinza mais escuro ao passar o mouse */
+  }
+  
